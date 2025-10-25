@@ -1,0 +1,50 @@
+[
+    {
+        "name": "c_user",
+        "value": "YOUR_FACEBOOK_USER_ID",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "no_restriction",
+        "session": false,
+        "expirationDate": 1791831124
+    },
+    {
+        "name": "xs",
+        "value": "YOUR_XS_TOKEN",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "session": false,
+        "expirationDate": 1791831124
+    },
+    {
+        "name": "datr",
+        "value": "YOUR_DATR_TOKEN",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "session": false,
+        "expirationDate": 1794907939
+    },
+    {
+        "name": "fr",
+        "value": "YOUR_FR_TOKEN",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "session": false,
+        "expirationDate": 1769094279
+    }
+]

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: goat-bot-v2
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
